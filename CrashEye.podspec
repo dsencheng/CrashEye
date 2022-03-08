@@ -27,7 +27,7 @@ CrashEye is an ios crash monitor，automatic catch exception crash & signal cras
   s.source           = { :git => 'https://github.com/zixun/CrashEye.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/zixun_'
 
-  s.ios.deployment_target = '8.0'
-
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '5.0'
   s.source_files = 'CrashEye/Classes/**/*'
 end
